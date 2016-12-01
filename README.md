@@ -22,3 +22,13 @@ zyx用来测试整个git和github使用过程
 11.19
       
       对于使用Git工具对自己的项目进行托管，用命令我已经特别熟练了，往上面穿，往本地下载，都已经掌握，但是用可可视化界面操作肯定更简单，自己要好好研究研究。
+
+
+12.1
+
+         今天试Git的时候最后一步 git本地仓库push远程仓库的时候，出了这个错： 
+          fatal the current branch master has no upstream branch
+
+          解决方案 : 用如下命令提交
+
+          git push -u origin master
